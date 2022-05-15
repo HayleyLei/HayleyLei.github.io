@@ -7,9 +7,49 @@
     <title>Advent Games</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    
 </head>
-<nav>
+<nav id="topnav">
+    <div class="left-nav">
+        <button onclick="history.back()" class="icon-top">
+            <i class="ti ti-chevron-left" style="font-size: 1.7rem; color:white"></i>
+        </button>
+        <div class="dropdown">
+            <button class="dropdown-btn">Games
+                <i class="ti ti-menu-2"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Board Games</a>
+                <a href="#">Card Games</a>
+                <a href="#">Role Playing Games</a>
+                <a href="#">Dice Games</a>
+                <a href="#">Puzzles</a>
+            </div>
+        </div>
+        <div class="toplink">
+            <a href="#">Publishers</a>
+            <a href="#">Best Sellers</a>
+            <a href="#">New Arrivals</a>
+        </div>
+    </div>
+    <div class="right-nav">
+        <a href="#" class="icon-top">
+            <i class="ti ti-search" style="font-size: 1.7rem; color:white"></i>
+        </a>
+        <div class="toplink">
+            <a href="#">Login</a>
+            <a href="#">About Us</a>
+            <a href="#">Order Tracking</a>
+        </div>
+        <a href="#" class="icon-top">
+            <i class="ti ti-heart" style="font-size: 1.7rem; color:white"></i>
+        </a>
+        <a href="#" class="icon-top">
+            <i class="ti ti-shopping-cart" style="font-size: 1.7rem; color:white"></i>
+        </a>
 
+    </div>
 </nav>
 <body class="background1">
     <div class="logo-container">
@@ -18,7 +58,44 @@
             <input type="search" placeholder="Search...">
             <button type="submit">Search</button>
         </form>
+        <p class="mobile-index-button">
+            <a href="#" style="width: 60%;">Start With New Arrivals</a>
+        </p>
     </div>
+
+    <footer class="footer">
+
+        <div class="footer-right">
+            <a href="#">
+                <img src="icon/fa.png" alt="social media"></a>
+            <a href="#">
+                <img src="icon/tw.png" alt="social media"></a>
+            <a href="#">
+                <img src="icon/in.png" alt="social media"></a>
+            <a href="#">
+                <img src="icon/pr.png" alt="social media"></a>
+        </div>
+
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+
+                <a href="#">New Arrivals</a>
+
+                <a href="#">Shopping Cart</a>
+
+                <a href="#">About</a>
+
+                <a href="#">Order Tracking</a>
+
+                <a href="#">Contact</a>
+            </p>
+
+            <p>Company Name &copy; 2015</p>
+        </div>
+
+    </footer>
 </body>
 
 </html>
