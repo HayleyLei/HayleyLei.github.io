@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="otherpage.css">
     <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <nav id="topnav">
     <div class="left-nav">
@@ -36,7 +38,7 @@
     </div> 
     <div class="logo-container">
         <a href="index.html">
-            <img src="/image/logo.png" alt="Advent Games Logo" style="width: 8rem;">
+            <img src="/image/logo.png" alt="Advent Games Logo">
         </a>
     </div>
     <div class="right-nav">
@@ -66,9 +68,58 @@
         </button>
         <input type="text" class="input-search" placeholder="Type to Search...">
     </div>
-
-    
-
+    <div class="topbar">
+        <h1 class="page-title">Board Games</h1>
+        <details class="feature">
+            <summary>Select by</summary>
+            <ul class="feature-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ul>
+        </details>
+    </div>
+    <div id="left-content">
+        <div class="scrollbar" id="style-1">
+            <div class="force-overflow">
+                <div class="odd-pop-item-container">
+                    <div class="item-text-info product-link">
+                        <p class="item-status">In Stock</p>
+                        <p class="item-summary">
+                            13 Days: The Cuban Missile Crisis is a meaty filler utilizing the card-driven game mechanics. Rich with history, yet accessible to gamers with no prior knowledge of the crisis.
+                        </p>
+                        <p class="item-price">
+                            £28.95 inc.VAT
+                        </p>
+                    </div>
+                    <div class="item-shopping">
+                        <p class="item-name product-link">
+                            13 Days: The Cuban Missile Crisis
+                        </p>
+                        <div class="item-button-container">
+                            <a href="shopping-cart.html" class="icon-inline">
+                                <i class="ti ti-heart" style="font-size: 1.7rem; color:rgb(156, 57, 57)"></i>
+                            </a>
+                            <form class="num-item-add-to-cart" style="margin:auto; width: auto;">    
+                                <input placeholder="1">
+                                <button type="submit">Add to Cart</button>
+                            </form>
+                        </div>
+                        <div class="item-image-container product-link">
+                            <img src="/image/13Days.jpg" alt="13Days image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <footer class="footer">
@@ -105,5 +156,6 @@
 
     </footer>
 </body>
+
 
 </html>
