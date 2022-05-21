@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advent Games</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="product.css">
+    <script src="https://kit.fontawesome.com/4fe4d19a61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<nav>    
+    <div id="topnav">
+    <div class="set-with-icon">
+        <div class="left-nav">
+            <button onclick="history.back()" class="icon-top back">    
+                    <i class="ti ti-chevron-left" style="font-size: 1.7rem; color:white"></i>
+            </button>
+            <div class="dropdown">
+                <button class="dropdown-btn">Games
+                    <i class="ti ti-menu-2"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="listing.html">Board Games</a>
+                    <a href="listing.html">Card Games</a>
+                    <a href="listing.html">Role Playing Games</a>
+                    <a href="listing.html">Dice Games</a>
+                    <a href="listing.html">Puzzles</a>
+                </div>
+            </div>
+            <div class="toplink">
+                <a href="listing.html">Publishers</a>
+                <a href="listing.html">Best Sellers</a>
+                <a class="hide" href="listing.html">New Arrivals</a>
+            </div>
+        </div>
+        <div class="icon-buttons">
+            <a href="shopping-cart.html" class="icon-top" style="font-weight: lighter;">
+                <i class="fa-solid fa-heart" style="font-size: 2.5rem; color:rgb(216, 104, 104);text-decoration: none;"></i>
+            </a>
+            <a href="shopping-cart.html" class="icon-top" style="font-weight:100;text-decoration: none;">
+                <i class="ti ti-shopping-cart" style="font-size: 2.5rem; color:white;"></i>
+            </a>
+        </div>
+    </div> 
+    <div class="logo-container">
+        <a href="index.html" style="text-decoration: none;">
+            <img src="/image/logo.png" alt="Advent Games Logo">
+        </a>
+        <div class="search-box">
+        <button class="btn-search">
+            <i class="ti ti-search" style="font-size: 1.7rem; color:white"></i>
+        </button>
+        <input type="text" class="input-search" placeholder="Type to Search...">
+    </div>
+    </div>
+    <div class="right-nav">
+        <div class="toplink">
+            <a href="listing.html">Login</a>
+            <a href="listing.html">About Us</a>
+            <a href="listing.html">Order Tracking</a>
+        </div>
+        <a href="shopping-cart.html" class="icon-top" style="font-weight: lighter;">
+            <i class="fa-solid fa-heart" style="font-size: 2rem; color:rgb(216, 104, 104);"></i>
+        </a>
+        <a href="shopping-cart.html" class="icon-top" style="font-weight:100;">
+            <i class="ti ti-shopping-cart" style="font-size: 2rem; color:white;"></i>
+        </a>
+
+    </div>
+</nav>
+<body>
+    <div id="main-container">
+        <div class="up-container">
+            <div class="left-container"> 
+                <div class="left-up">
+                    <div class="images">
+                        <div class="main-image">
+                            <img class="aimg" src="/image/13Days.jpg" alt="13days-preview">
+                        </div>
+                        <div class="preview-img-container">
+                            <div class="img-container">
+                                <img class="pre-img" src="/image/13Days.jpg">
+                            </div>
+                            <div class="img-container">
+                                <img class="pre-img" src="/image/13Days.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-main-info">
+                        <p>13 Days: The Cuban Missile Crisis</p>
+                        <div class="review-stars">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <p class="num-reviews">(35)</p>
+                        </div>
+                        <div class="item-price">
+                            <p>£28.95 inc.VAT</p>
+                        </div>
+                        <div class="item-button-container">
+                            <a href="#" class="icon-inline" style="text-decoration: none">
+                                <i class="ti ti-heart" style="font-size: 1.7rem; color:rgb(216, 104, 104)"></i>
+                            </a>
+                            <form class="num-item-add-to-cart">    
+                                <input placeholder="1">
+                                <button type="submit" class="add-to-cart">Add to Cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-bottom">
+                    <div class="scrl-container">
+                        <p class="also-like">You may also like</p>
+                        <div class="scrollbar" id="style-1">
+                            <dic class="force-overflow2">
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/Citta-Stato.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic738119.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic6669033.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic6644347-1.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic4687901.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/Citta-Stato.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic738119.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic6669033.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic6644347-1.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic4687901.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/Citta-Stato.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic738119.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic6669033.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic6644347-1.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/pic4687901.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="index-item-image-container">
+                                        <img src="/image/Citta-Stato.jpg" class="item-image">
+                                    </div>
+                                    <div class="item-button">
+                                        <p class="item-price">£28.95</p>
+                                        <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                                    </div>
+                                </div>
+                            </dic>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scrollbar2" id="style-1">
+                <div class="right-container">
+                    <div class="try" id="no">
+                        <div class="discpt-content">
+                            <p class="section-title">Description</p>
+                            <div class="scrollbar" id="style-1">
+                                <div class="section-content">
+                                    <p>Experience the dense Cold War suspense and scratch that Twilight Struggle itch in only 45 minutes. 13 Days: The Cuban Missile Crisis is a nail-biting, theme saturated two-player strategy game about the Cuban Missile Crisis. Your fate is determined by how well you deal with the inherent dilemmas of the game, and the conflict.</p>
+
+                                    <p>1) Will you push to gain prestige at the risk of escalating the crisis to global nuclear war?</p>
+                                    <p>2) How do you best manage your hand of cards to further your own plans while depriving your opponent of options?</p>
+                                        
+                                    <p>Work out these dilemmas in order to emerge as victor of the Cuban Missile Crisis after thirteen suspenseful days.</p>
+                                        
+                                    <p>13 Days: The Cuban Missile Crisis is a meaty filler utilizing the card-driven game mechanics. Rich with history, yet accessible to gamers with no prior knowledge of the crisis. It is targeted specifically at catering to two groups of gamers: the enthusiasts that just don’t have the time they used to and the curious newcomers that are scared off by the heavy commitment and long play times of the classics in the genre.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <a class="link-button" href="#ok" style="color: white;font-size: 2rem;"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="try" id="ok">
+                        <a class="link-button" href="#no" style="color: white;font-size: 2rem;"><i class="fa-solid fa-chevron-left"></i></a>
+                        <div class="discpt-content">
+                            <p class="section-title">Next level</p>
+                            <div class="scrollbar" id="style-1">
+                                <div class="section-content num-2">
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <div class="up-part">
+                                            <i class="fa-solid fa-circle-user" style="color: white;font-size:2.6rem"></i>
+                                            <div class="name-stars">
+                                                <p class="user-name">User Name</p>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="down-part">
+                                            <p class="review-content">The delivery was fast and the box arrived as described, very happy with my purchase.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bot-container">    
+            <div class="scrollbar" id="style-1">
+                <div class="product-overflow">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a href="index.html" class="link-1" href="#">Home</a>
+
+                <a href="listing.html">New Arrivals</a>
+
+                <a href="shopping-cart.html">Shopping Cart</a>
+
+                <a href="listing.html">About</a>
+
+                <a href="listing.html">Order Tracking</a>
+
+                <a href="listing.html">Contact</a>
+            </p>
+
+            <p>Advent Games &copy; 2022</p>
+        </div>
+        <div class="footer-right">
+            <a href="#">
+                <img src="icon/fa.png" alt="social media"></a>
+            <a href="#">
+                <img src="icon/tw.png" alt="social media"></a>
+            <a href="#">
+                <img src="icon/in.png" alt="social media"></a>
+            <a href="#">
+                <img src="icon/pr.png" alt="social media"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

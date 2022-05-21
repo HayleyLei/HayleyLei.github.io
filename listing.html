@@ -6,68 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advent Games</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="otherpage.css">
+    <link rel="stylesheet" href="listing.css">
+    
+    <script src="https://kit.fontawesome.com/4fe4d19a61.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
 </head>
-<nav id="topnav">
-    <div class="left-nav">
-        <button onclick="history.back()" class="icon-top back">
-            <i class="ti ti-chevron-left" style="font-size: 1.7rem; color:white"></i>
-        </button>
-
-        <div class="dropdown">
-            <button class="dropdown-btn">Games
-                <i class="ti ti-menu-2"></i>
+<nav>    
+    <div id="topnav">
+    <div class="set-with-icon">
+        <div class="left-nav">
+            <button onclick="history.back()" class="icon-top back">    
+                    <i class="ti ti-chevron-left" style="font-size: 1.7rem; color:white"></i>
             </button>
-            <div class="dropdown-content">
-                <a href="listing.html">Board Games</a>
-                <a href="listing.html">Card Games</a>
-                <a href="listing.html">Role Playing Games</a>
-                <a href="listing.html">Dice Games</a>
-                <a href="listing.html">Puzzles</a>
+            <div class="dropdown">
+                <button class="dropdown-btn">Games
+                    <i class="ti ti-menu-2"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="listing.html">Board Games</a>
+                    <a href="listing.html">Card Games</a>
+                    <a href="listing.html">Role Playing Games</a>
+                    <a href="listing.html">Dice Games</a>
+                    <a href="listing.html">Puzzles</a>
+                </div>
+            </div>
+            <div class="toplink">
+                <a href="listing.html">Publishers</a>
+                <a href="listing.html">Best Sellers</a>
+                <a class="hide" href="listing.html">New Arrivals</a>
             </div>
         </div>
-        <div class="toplink">
-            <a href="listing.html">Publishers</a>
-            <a href="listing.html">Best Sellers</a>
-            <a class="hide" href="listing.html">New Arrivals</a>
+        <div class="icon-buttons">
+            <a href="shopping-cart.html" class="icon-top" style="font-weight: lighter;">
+                <i class="fa-solid fa-heart" style="font-size: 2.5rem; color:rgb(216, 104, 104);text-decoration: none;"></i>
+            </a>
+            <a href="shopping-cart.html" class="icon-top" style="font-weight:100;text-decoration: none;">
+                <i class="ti ti-shopping-cart" style="font-size: 2.5rem; color:white;"></i>
+            </a>
         </div>
     </div> 
     <div class="logo-container">
-        <a href="index.html">
+        <a href="index.html" style="text-decoration: none;">
             <img src="/image/logo.png" alt="Advent Games Logo">
         </a>
+        <div class="search-box">
+        <button class="btn-search">
+            <i class="ti ti-search" style="font-size: 1.7rem; color:white"></i>
+        </button>
+        <input type="text" class="input-search" placeholder="Type to Search...">
+    </div>
     </div>
     <div class="right-nav">
-        <!-- <a href="#" class="icon-top">
-            <i class="ti ti-search" style="font-size: 1.7rem; color:white"></i>
-        </a> -->
         <div class="toplink">
             <a href="listing.html">Login</a>
             <a href="listing.html">About Us</a>
             <a href="listing.html">Order Tracking</a>
         </div>
         <a href="shopping-cart.html" class="icon-top" style="font-weight: lighter;">
-            <i class="ti ti-heart" style="font-size: 2rem; color:rgb(216, 104, 104);"></i>
+            <i class="fa-solid fa-heart" style="font-size: 2rem; color:rgb(216, 104, 104);"></i>
         </a>
         <a href="shopping-cart.html" class="icon-top" style="font-weight:100;">
             <i class="ti ti-shopping-cart" style="font-size: 2rem; color:white;"></i>
         </a>
 
     </div>
-
 </nav>
 <body>
 
-    <div class="search-box">
-        <button class="btn-search">
-            <i class="ti ti-search" style="font-size: 1.7rem; color:white"></i>
-        </button>
-        <input type="text" class="input-search" placeholder="Type to Search...">
-    </div>
+
     <div class="topbar">
         <h1 class="page-title">Board Games</h1>
         <details class="feature">
@@ -99,12 +108,12 @@
                                 13 Days: The Cuban Missile Crisis
                             </p>
                             <div class="item-button-container">
-                                <a href="shopping-cart.html" class="icon-inline" style="text-decoration: none">
-                                    <i class="ti ti-heart" style="font-size: 1.7rem; color:rgb(216, 104, 104)"></i>
-                                </a>
+                                
+                                <i class="ti ti-heart" style="font-size: 1.7rem; color:rgb(216, 104, 104)"></i>
+                                
                                 <form class="num-item-add-to-cart">    
                                     <input placeholder="1">
-                                    <button type="submit" class="add-to-cart">Add to Cart</button>
+                                    <button type="submit" id="add-to-cart">Add to Cart</button>
                                 </form>
                             </div>
                             <div class="item-image-container product-link">
@@ -126,12 +135,10 @@
                                 Citta-Stato
                             </p>
                             <div class="item-button-container">
-                                <a href="shopping-cart.html" class="icon-inline" style="text-decoration: none">
                                     <i class="ti ti-heart" style="font-size: 1.7rem; color:rgb(216, 104, 104)"></i>
-                                </a>
                                 <form class="num-item-add-to-cart">    
                                     <input placeholder="1">
-                                    <button type="submit" class="add-to-cart">Add to Cart</button>
+                                    <button type="submit" id="add-to-cart">Add to Cart</button>
                                 </form>
                             </div>
                             <div class="item-image-container product-link">
@@ -154,12 +161,10 @@
                                 13 Days: The Cuban Missile Crisis
                             </p>
                             <div class="item-button-container">
-                                <a href="shopping-cart.html" class="icon-inline" style="text-decoration: none">
                                     <i class="ti ti-heart" style="font-size: 1.7rem; color:rgb(216, 104, 104)"></i>
-                                </a>
                                 <form class="num-item-add-to-cart">    
                                     <input placeholder="1">
-                                    <button type="submit" class="add-to-cart">Add to Cart</button>
+                                    <button type="submit" id="add-to-cart">Add to Cart</button>
                                 </form>
                             </div>
                             <div class="item-image-container product-link">
@@ -181,12 +186,10 @@
                                 Citta-Stato
                             </p>
                             <div class="item-button-container">
-                                <a href="shopping-cart.html" class="icon-inline" style="text-decoration: none">
                                     <i class="ti ti-heart" style="font-size: 1.7rem; color:rgb(216, 104, 104)"></i>
-                                </a>
                                 <form class="num-item-add-to-cart">    
                                     <input placeholder="1">
-                                    <button type="submit" class="add-to-cart">Add to Cart</button>
+                                    <button type="submit" id="add-to-cart">Add to Cart</button>
                                 </form>
                             </div>
                             <div class="item-image-container product-link">
@@ -207,7 +210,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -216,7 +219,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -225,7 +228,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -234,7 +237,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -243,7 +246,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -252,7 +255,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -261,7 +264,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -270,7 +273,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -279,7 +282,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -288,7 +291,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -297,7 +300,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -306,7 +309,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -315,7 +318,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -324,7 +327,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -333,7 +336,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                     <div class="item">
@@ -342,7 +345,7 @@
                         </div>
                         <div class="item-button">
                             <p class="item-price">£28.95</p>
-                            <a href="#"><button class="add-to-cart">Add to Cart</button></a>
+                            <a href="added.html"><button id="add-to-cart">Add to Cart</button></a>
                         </div>
                     </div>
                 </div>
