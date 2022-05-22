@@ -566,7 +566,7 @@ align-items: center;flex-direction: column;}
     outline: none;
 }
 
-.add-to-cart{
+#add-to-cart{
     overflow: hidden;
     width: auto;
     margin: 0;
