@@ -339,6 +339,9 @@ right: 0;max-width: 7%;flex-direction: column;}
       display: flex;
       flex-direction: column;
   justify-content: space-around;}
+  body .footer{
+    padding: 0.8rem 3rem;
+}
   }
   
 .search-box{
