@@ -310,17 +310,21 @@
     @media (max-width: 600px) {
       .footer .footer-left, .footer .footer-right {
         text-align: center;
-      }
-      .footer .footer-right {
+    }
+
+    .footer .footer-right {
         float: none;
         margin: 0 auto 20px;
-      }
-      .footer .footer-left p.footer-links {
+    }
+
+    .footer .footer-left p.footer-links {
         line-height: 1.8;
-      }
+    }
+    body .footer {
+        padding: 0.8rem 3rem;
+    }
       .logo-container{
           gap: 4rem;
-          margin-top: 10vh;
       }
       .mobile-index-button a{
         font-weight: bold;

@@ -79,27 +79,46 @@
             <p class="page-title">Checkout</p>
             <i class="fa-solid fa-dollar-sign" style="font-size: 3rem; text-shadow: 0 2px 6px #00000080; color:white;"></i>
         </div>
-        <a href="#" class="page-title">1</a>
+        <div class="step-link">
+            <a href="checkout1.html" class="page-title" style="color: black; text-shadow: 0 2px 6px #ffffff80;">1</a>
+            <a href="#" class="page-title">2</a>
+        </div>
     </div>
     <div class="main">
         <div class="hidden-outer">
             <div class="left-container">
-                <div class="up-one">
-                    <p class="forms">Contact information</p>
-                    <input type="text" class="info-input numbers" placeholder="Email/Phone number">
+                <div class="up-form">
+                    <div class="line with-line">
+                        <div class="left-part">
+                            <p class="name">Contact</p>
+                            <p class="content">0412345678</p>
+                        </div>
+                        <a href="checkout1.html" class="change">Change</a>
+                    </div>
+                    <div class="line">
+                        <div class="left-part">
+                            <p class="name">Ship to</p>
+                            <p class="content">160 Victoria Street, Carlton VIC 3053, Australia</p>
+                        </div>
+                        <a href="checkout1.html" class="change">Change</a>
+                    </div>
+                    
                 </div>
-                <div class="bot-five">
-                    <p class="forms">Shipping information</p>
-                    <input type="text" class="info-input f-name" placeholder="First name" required>
-                    <input type="text" class="info-input l-name" placeholder="Last name" required>
-                    <input type="text" class="info-input company" placeholder="Company">
-                    <input type="text" class="info-input address" placeholder="Address" required>
-                    <input type="text" class="info-input apartment" placeholder="Apartment, suite, etc(optional)">
+                <div class="bot-one">
+                    <p class="bot-title">Shipping Method</p>
+                    <div class="line bot">
+                        <div class="selection">
+                            <i class="fa-solid fa-circle-dot" style="color:black; font-size: 2rem;"></i>
+                            <p class="method">Standard Shipping Via Australia Post</p>
+                        </div>
+                        <p class="post-fee">Free</p>
+                    </div>
+                    
                 </div>
             </div>
             <div class="right-box second">
                 <div class="go-back">
-                    <a href="shopping-cart.html">
+                    <a href="checkout1.html">
                         <button>Go Back</button>
                     </a>
                     
@@ -118,7 +137,7 @@
                     </div>
                 </div>
 
-                <a class="go-next" href="checkout2.html">
+                <a class="go-next" href="checkout3.html">
                     <button>Next</button>
                 </a>
             </div>
@@ -268,7 +287,7 @@
             </div>
             <div class="right-box first">
                 <div class="go-back">
-                    <a href="shopping-cart.html">
+                    <a href="checkout1.html">
                         <button>Go Back</button>
                     </a>
                     
@@ -287,7 +306,7 @@
                     </div>
                 </div>
 
-                <a class="go-next" href="checkout2.html">
+                <a class="go-next" href="checkou3.html">
                     <button>Next</button>
                 </a>
             </div>
@@ -325,5 +344,4 @@
     </footer>
     <script src="checkout.js"></script>
 </body>
-
 </html>
