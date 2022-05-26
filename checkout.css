@@ -797,8 +797,8 @@ display: flex;padding: 2rem 0 2rem 0;justify-content: center;flex-direction: col
     border-bottom: 1px solid #2B2B2B;
 }
 .line{
-    padding-bottom: 2rem;
-    padding-top: 1.6rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -851,11 +851,11 @@ p.fee{
 }
 .with-fee{
     align-items: flex-end;
-}
+padding-bottom: 1.7rem;}
 .bot-gift input{
     width: 80%;
     border-radius: 1rem;
-    padding: 2rem 1.3rem;
+    padding: 1.5rem 1.3rem;
     border: none;
 }
 .bot-gift button{
