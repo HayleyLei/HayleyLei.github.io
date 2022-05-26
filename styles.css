@@ -302,7 +302,9 @@
         display: none;
     }
 
-
+    button{
+      cursor: pointer;
+    }
 
     /* Media Queries */
 

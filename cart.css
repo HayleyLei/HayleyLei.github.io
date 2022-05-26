@@ -567,6 +567,7 @@ background-color: #4d5761b4;
   box-shadow: 0 2px 6px #00000080;
   font-family: 'Segoe UI';
   font-size: 1.1rem;padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  cursor: pointer;
 letter-spacing: -0.05rem;max-width: 6.5rem;}
 
 .right-box .go-next button{
@@ -611,3 +612,9 @@ align-items: flex-end;}
   flex-direction: row;
   justify-content: space-between;
 margin-top: 2rem;flex-wrap: wrap;}
+.fa-solid.fa-xmark{
+  cursor: pointer;
+}
+.product-link{
+  cursor: pointer;
+}

@@ -604,7 +604,7 @@ align-items: center;}
     align-items: center;
     margin-right: 2rem;
     margin-left: 2rem;
-width: 30%;}
+width: 35%;}
 
 .title-container {
     display: flex;
@@ -681,7 +681,7 @@ min-height: 30vh;}
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     letter-spacing: -0.05rem;
     /* max-width: 6.5rem; */
-}
+cursor: pointer;}
 
 .right-box .go-next button {
     color: black;
@@ -926,4 +926,7 @@ p.credit-card{
     justify-content: space-between;
     align-items: stretch;
     width: 100%;
+}
+i{
+    cursor: pointer;
 }
