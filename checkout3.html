@@ -86,85 +86,124 @@
         </div>
     </div>
     <div class="main">
-        <div class="hidden-outer">
-            <div class="left-container">
-                <div class="up-form">
-                    <div class="line with-line">
-                        <div class="left-part">
-                            <p class="name">Contact</p>
-                            <p class="content">0412345678</p>
+        <div class="scrollbar3" id="style-1">
+            <div class="hidden-outer">
+                <div class="left-container">
+                    <div class="up-form for-card">
+                        <div class="selection bank-selection">
+                            <i class="fa-solid fa-circle-dot" style="color:black; font-size: 1.5rem;"></i>
+                            <p class="credit-card">Credit Card</p>
+                            <img class="banks" src="/icon/banks.png">
                         </div>
-                        <a href="checkout1.html" class="change">Change</a>
-                    </div>
-                    <div class="line">
-                        <div class="left-part">
-                            <p class="name">Ship to</p>
-                            <p class="content">160 Victoria Street, Carlton VIC 3053, Australia</p>
+                        <div class="card-info">
+                            <input placeholder="Card Number">
+                            <input placeholder="Name on Card">
+                            <input placeholder="Expiration Date (MM / YY)">
+                            <input placeholder="Security Code">
                         </div>
-                        <a href="checkout1.html" class="change">Change</a>
-                    </div>
-                    
-                </div>
-                <div class="bot-one">
-                    <p class="bot-title">Shipping Method</p>
-                    <div class="line bot">
                         <div class="selection">
-                            <i class="fa-solid fa-circle-dot" style="color:black; font-size: 2rem;"></i>
-                            <p class="method">Standard Shipping Via Australia Post</p>
+                            <i class="fa-regular fa-circle" style="color:black; font-size: 1.5rem;"></i>
+                            <img class="paypal" src="/icon/paypal.png">
                         </div>
-                        <p class="post-fee">Free</p>
                     </div>
-                    
+                    <div class="bot-one for-billing">
+                        <p class="bot-title">Billing Address</p>
+                        <div class="line bot step3">
+                            <div class="selection with-line">
+                                <i class="fa-solid fa-circle-dot" style="color:black; font-size: 1.5rem;"></i>
+                                <p class="method">Same as shipping address</p>
+                            </div>
+                            <div class="selection">
+                                <i class="fa-regular fa-circle" style="color:black; font-size: 1.5rem;"></i>
+                                <p class="method">Use a different billing address</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="right-box second">
+                    <div class="go-back">
+                        <a href="checkout2.html">
+                            <button>Go Back</button>
+                        </a>
+                        
+                    </div>
+                    <div class="summary-container">
+                        <div class="price-summary">
+                            <p>Total Price:</p>
+                            <div class="merged-price">
+                                <p>£</p>
+                                <p class="total-price">188.88</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="go-next" href="#">
+                        <button>Pay</button>
+                    </a>
                 </div>
             </div>
-            <div class="right-box second">
-                <div class="go-back">
-                    <a href="checkout1.html">
-                        <button>Go Back</button>
-                    </a>
-                    
-                </div>
-                <div class="summary-container">
-                    <div class="price-summary">
-                        <p>Total Price:</p>
-                        <div class="merged-price">
-                            <p>£</p>
-                            <p class="total-price">188.88</p>
+            <div class="right-container">
+
+                <div class="right-up">
+                    <div class="up-form">
+                        <div class="line with-line">
+                            <div class="left-part">
+                                <p class="name">Contact</p>
+                                <p class="content">0412345678</p>
+                            </div>
+                            <a href="checkout1.html" class="change">Change</a>
+                        </div>
+                        <div class="line with-line">
+                            <div class="left-part">
+                                <p class="name">Ship to</p>
+                                <p class="content">160 Victoria Street, Carlton VIC 3053, Australia</p>
+                            </div>
+                            <a href="checkout1.html" class="change">Change</a>
+                        </div>
+                        <div class="line with-fee">
+                            <div class="left-part">
+                                <p class="name">Method</p>
+                                <p class="content">Standard Shipping Via Australia Post</p>
+                            </div>
+                            <p class="fee">Free</p>
+                        </div>
+                        
+                    </div>
+                    <div class="gift-discount">
+                        <p class="bot-title">Gift Card or discount code</p>
+                        <div class="line bot-gift">
+                            <input class="gift-code" placeholder="Gift Card or discount code">
+                            <button>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
 
-                <a class="go-next" href="checkout3.html">
-                    <button>Next</button>
-                </a>
-            </div>
-        </div>
-        <div class="right-container">
 
 
-
-
-
-            <div class="right-box first">
-                <div class="go-back">
-                    <a href="checkout1.html">
-                        <button>Go Back</button>
-                    </a>
-                    
-                </div>
-                <div class="summary-container">
-                    <div class="price-summary">
-                        <p>Total Price:</p>
-                        <div class="merged-price">
-                            <p>£</p>
-                            <p class="total-price">188.88</p>
+                <div class="right-box first">
+                    <div class="go-back">
+                        <a href="checkout2.html">
+                            <button>Go Back</button>
+                        </a>
+                        
+                    </div>
+                    <div class="summary-container">
+                        <div class="price-summary">
+                            <p>Total Price:</p>
+                            <div class="merged-price">
+                                <p>£</p>
+                                <p class="total-price">188.88</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <a class="go-next" href="checkou3.html">
-                    <button>Next</button>
-                </a>
+                    <a class="go-next" href="#">
+                        <button>Pay</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
