@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advent Games</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/checkout.css">
     <script src="https://kit.fontawesome.com/4fe4d19a61.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,7 @@
         </div>
     </div> 
     <div class="logo-container">
-        <a href="index.html" style="text-decoration: none;">
+        <a href="../index.html" style="text-decoration: none;">
             <img src="/image/logo.png" alt="Advent Games Logo">
         </a>
         <div class="search-box">
@@ -79,46 +79,27 @@
             <p class="page-title">Checkout</p>
             <i class="fa-solid fa-dollar-sign" style="font-size: 3rem; text-shadow: 0 2px 6px #00000080; color:white;"></i>
         </div>
-        <div class="step-link">
-            <a href="checkout1.html" class="page-title" style="color: black; text-shadow: 0 2px 6px #ffffff80;">1</a>
-            <a href="#" class="page-title">2</a>
-        </div>
+        <a href="#" class="page-title">1</a>
     </div>
     <div class="main">
         <div class="hidden-outer">
             <div class="left-container">
-                <div class="up-form">
-                    <div class="line with-line">
-                        <div class="left-part">
-                            <p class="name">Contact</p>
-                            <p class="content">0412345678</p>
-                        </div>
-                        <a href="checkout1.html" class="change">Change</a>
-                    </div>
-                    <div class="line">
-                        <div class="left-part">
-                            <p class="name">Ship to</p>
-                            <p class="content">160 Victoria Street, Carlton VIC 3053, Australia</p>
-                        </div>
-                        <a href="checkout1.html" class="change">Change</a>
-                    </div>
-                    
+                <div class="up-one">
+                    <p class="forms">Contact information</p>
+                    <input type="text" class="info-input numbers" placeholder="Email/Phone number">
                 </div>
-                <div class="bot-one step2">
-                    <p class="bot-title">Shipping Method</p>
-                    <div class="line bot step2">
-                        <div class="selection">
-                            <i class="fa-solid fa-circle-dot" style="color:black; font-size: 2rem;"></i>
-                            <p class="method">Standard Shipping Via Australia Post</p>
-                        </div>
-                        <p class="post-fee">Free</p>
-                    </div>
-                    
+                <div class="bot-five">
+                    <p class="forms">Shipping information</p>
+                    <input type="text" class="info-input f-name" placeholder="First name" required>
+                    <input type="text" class="info-input l-name" placeholder="Last name" required>
+                    <input type="text" class="info-input company" placeholder="Company">
+                    <input type="text" class="info-input address" placeholder="Address" required>
+                    <input type="text" class="info-input apartment" placeholder="Apartment, suite, etc(optional)">
                 </div>
             </div>
             <div class="right-box second">
                 <div class="go-back">
-                    <a href="checkout1.html">
+                    <a href="shopping-cart.html">
                         <button>Go Back</button>
                     </a>
                     
@@ -137,7 +118,7 @@
                     </div>
                 </div>
 
-                <a class="go-next" href="checkout3.html">
+                <a class="go-next" href="checkout2.html">
                     <button>Next</button>
                 </a>
             </div>
@@ -287,7 +268,7 @@
             </div>
             <div class="right-box first">
                 <div class="go-back">
-                    <a href="checkout1.html">
+                    <a href="shopping-cart.html">
                         <button>Go Back</button>
                     </a>
                     
@@ -306,7 +287,7 @@
                     </div>
                 </div>
 
-                <a class="go-next" href="checkout3.html">
+                <a class="go-next" href="checkout2.html">
                     <button>Next</button>
                 </a>
             </div>
@@ -316,7 +297,7 @@
         <div class="footer-left">
 
             <p class="footer-links">
-                <a href="index.html" class="link-1" href="#">Home</a>
+                <a href="../index.html" class="link-1" href="#">Home</a>
 
                 <a href="listing.html">New Arrivals</a>
 
@@ -333,15 +314,16 @@
         </div>
         <div class="footer-right">
             <a href="#">
-                <img src="icon/fa.png" alt="social media"></a>
+                <img src="/icon/fa.png" alt="social media"></a>
             <a href="#">
-                <img src="icon/tw.png" alt="social media"></a>
+                <img src="/icon/tw.png" alt="social media"></a>
             <a href="#">
-                <img src="icon/in.png" alt="social media"></a>
+                <img src="/icon/in.png" alt="social media"></a>
             <a href="#">
-                <img src="icon/pr.png" alt="social media"></a>
+                <img src="/icon/pr.png" alt="social media"></a>
         </div>
     </footer>
-    <script src="checkout.js"></script>
+    <script src="/js/checkout.js"></script>
 </body>
+
 </html>

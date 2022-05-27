@@ -151,7 +151,7 @@
     }
 
     html {
-        background-image: url(image/background3.png);
+        background-image: url(/image/background3.png);
         background-repeat: no-repeat;
         background-position: 100% 48%;
         background-position-x: 59%;background-size: cover;
