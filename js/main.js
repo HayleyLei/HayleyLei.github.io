@@ -12,10 +12,17 @@ function myFunction1() {
 
 const go_product = document.querySelectorAll(".product-link");
 for(var i = 0; i < go_product.length; i++) {
-    go_product[i].addEventListener("click", function(){
-        window.location = 'product.html';
-    });
+    if(i % 3 != 0){
+        go_product[i].addEventListener("click", function(){
+            window.location = 'product.html';
+        });
+    } else {
+        go_product[i].addEventListener("click", function(){
+            window.location = 'product2.html';
+        });
+    }
 }
+
 
 function increaseCount(a, b) {
     var input = b.previousElementSibling;

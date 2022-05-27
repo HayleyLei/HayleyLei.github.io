@@ -166,7 +166,7 @@
       color: #bbb;
   }
   
-  button[type="submit"] {
+  .go-search {
       text-indent: -999px;
       overflow: hidden;
       width: 5rem;
@@ -185,11 +185,11 @@
     border-color: rgb(233, 180, 101);
     outline: none;
   }
-  button[type="submit"]:hover{
-    background-color: #4d5761c7;
+  .go-search:hover{
+    background-color: #3e5770f1;
   }
-  button[type="submit"]:focus{
-    background-color: #4d5761;
+  .go-search:focus{
+    background-color: #3a5471;
   }
   
   .logo-container{
