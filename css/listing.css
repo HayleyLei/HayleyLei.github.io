@@ -486,7 +486,7 @@ left: 0;
 
 summary:after {
 content: '';
-display: inline-block;
+/* display: inline-block; */
 float: right;
 width: .5rem;
 height: .5rem;
