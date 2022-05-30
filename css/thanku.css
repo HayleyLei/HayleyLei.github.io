@@ -465,6 +465,7 @@ button {
 }
 
 .right a {
+  max-width: 10rem;
   width: 33%;
 }
 
